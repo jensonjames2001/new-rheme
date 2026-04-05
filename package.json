@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "seed": "node scripts/seed.js"
+    "seed": "node scripts/seed.cjs"
   },
   "dependencies": {
     "firebase": "^10.7.1",
@@ -16,7 +16,7 @@
     "react-router-dom": "^6.21.1"
   },
   "optionalDependencies": {
-    "firebase-admin": "^12.0.0"
+    "firebase-admin": "^12.7.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
